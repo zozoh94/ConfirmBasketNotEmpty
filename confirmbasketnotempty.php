@@ -17,7 +17,7 @@ class ConfirmBasketNotEmpty extends Module
 
         $this->displayName = $this->l('Confirm basket not empty');
         $this->description = $this->l('Module to display a message when the user want to quit and his basket is not empty.');
-        $this->confirmUninstall = $this->l('Are you sure you want to uninstall Confirm basket not empyt ?');
+        $this->confirmUninstall = $this->l('Are you sure you want to uninstall Confirm basket not empty ?');
          
         if (!Configuration::get('CONFIRMBASKETNOTEMPTY_MESSAGE'))      
             $this->warning = $this->l('No message provided');
