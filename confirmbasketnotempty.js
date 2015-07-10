@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var link_intern = false;
     document.addEventListener("click", function(e) {
-	if (e.currentTarget.activeElement.nodeName.toLowerCase() === 'a'  && document.location.host === e.currentTarget.activeElement.host || e.currentTarget.activeElement.nodeName.toLowerCase() === 'button') {
+	if (e.currentTarget.activeElement.nodeName.toLowerCase() === 'a'  && document.location.host === e.currentTarget.activeElement.host || e.target.href === 'javascript:void(0)' || e.currentTarget.activeElement.nodeName.toLowerCase() === 'button' || e.currentTarget.activeElement.nodeName.toLowerCase() === 'input') {
 	    link_intern = true;
 	}
     }, true);
