@@ -6,7 +6,6 @@
   <description><![CDATA[Module to display a message when the user quit the site and his basket is not empty.]]></description>
   <author><![CDATA[Enzo Hamelin]]></author>
   <tab><![CDATA[front_office_features]]></tab>
-  <confirmUninstall>Are you sure you want to uninstall Confirm basket not empty ?</confirmUninstall>
   <is_configurable>1</is_configurable>
   <need_instance>0</need_instance>
   <limited_countries></limited_countries>
